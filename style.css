@@ -1,0 +1,50 @@
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    margin: 5px;
+    padding: 10px;
+    color: rgb(192, 255, 216);
+}
+a:hover {
+    color: rgb(223, 29, 119);
+}
+.navBg {
+    background-color: rgb(12, 81, 94);
+    margin: 0 auto;
+    padding: 0;
+}
+.navBg.active {
+    background-color: brown;
+    transform: none;
+}
+.hamburger {
+    border: none;
+    background-color: transparent;
+    /* height: */
+}
+.hamburger span {
+    width: 35px;
+    height: 3px;
+    display: block;
+    border: 2px solid rgb(47, 201, 162);
+    margin: 5px;
+}
+.hamburger span {
+    transition: all .2s ease-in-out;
+}
+.hamburger span:nth-child(2) {
+    margin-top: 7px 0;
+    margin-bottom: 3px 0;
+}
+.flexContainer {
+    display: flex;
+}
+.flex {
+    display: flex;
+    justify-content: center;
+}
+.navBar {
+    list-style: none;
+}
