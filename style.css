@@ -6,6 +6,8 @@
     box-sizing: border-box;
 }
 
+/* TAGS */
+
 header {
     background-color: rgb(235, 92, 82);
 }
@@ -24,6 +26,8 @@ button {
     border: none;
 }
 
+/* IDs */
+
 #logo {
     min-width: 45px;
     max-width: 45px;
@@ -39,6 +43,8 @@ button {
     transition: all .5s ease-in-out;
     fill: rgb(70, 32, 6);
 }
+
+/* CLASSES */
 
 .cls-1 {
     transition: all .5s ease-in-out;
@@ -81,10 +87,6 @@ button {
     justify-content: space-between;
     align-items: center;
     gap: 60px;
-}
-
-.logo {
-    font-size: 2rem;
 }
 
 .nav-link {
@@ -147,72 +149,3 @@ button {
         right: 0;
     }
 }
-
-
-
-
-
-
-/* body {
-    margin: 0 auto;
-}
-a {
-    text-decoration: none;
-    margin: 5px;
-    padding: 10px;
-    color: rgb(192, 255, 216);
-}
-a:hover {
-    color: rgb(223, 29, 119);
-}
-ul.active {
-    color: blue;
-}
-.navBg {
-    background-color: rgb(12, 81, 94);
-    margin: 0 auto;
-    padding: 0;
-}
-.navBg.active {
-    background-color: brown;
-    transform: none;
-    height: 300px;
-    width: 200px;
-    display: flex;
-    justify-content: end;
-}
-.hamburger {
-    border: none;
-    background-color: transparent;
-   
-}
-.hamburger span {
-    width: 35px;
-    height: 3px;
-    display: block;
-    border: 2px solid rgb(47, 201, 162);
-    margin: 5px;
-    transition: all .2s ease-in-out;
-}
-.hamburger span:nth-child(2) {
-    margin-top: 7px 0;
-    margin-bottom: 3px 0;
-}
-.hamburger span.active {
-    width: 55px;
-    height: 3px;
-    display: block;
-    border: 2px solid rgb(157, 47, 201);
-    margin: 5px;
-    transform: rotate(-90);
-}
-.flexContainer {
-    display: flex;
-}
-.flex {
-    display: flex;
-    justify-content: center;
-}
-.navBar {
-    list-style: none;
-} */
