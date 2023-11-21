@@ -1,9 +1,11 @@
-const navBg = document.querySelector('.navBg');
-const btn = document.querySelector('button');
+// declare references (i.e., the button and ul)
 
-btn.addEventListener('click', function() {
-    navBg.classList.toggle('active');
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+// add the click function with a toggle so that the hamburger can toggle the hidden menu
+
+hamburger.addEventListener('click', function() {
+    hamburger.classList.toggle('active');
+    navMenu.classList.toggle('active');
 })
-
-
-// console.log('Hello World');
